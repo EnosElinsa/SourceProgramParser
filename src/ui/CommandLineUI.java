@@ -9,7 +9,7 @@ public class CommandLineUI {
     public void run() {
         try (Scanner in = new Scanner(System.in)) {
             while (true) {
-                System.out.println("------------------------MENU------------------------\n1. Analyze the Source Program File in the Directory\n2. View the Analysis Results\n3. Exit\n----------------------------------------------------");
+                System.out.println("------------------------MENU------------------------\n1. Analyze the Source Program File in the Directory\n2. View the Analysis Results\n0. Exit\n----------------------------------------------------");
                 System.out.print(">Option: ");
                 int option = in.nextInt();
                 switch(option) {
