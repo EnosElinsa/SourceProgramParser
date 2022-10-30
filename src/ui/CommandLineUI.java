@@ -3,6 +3,8 @@ package ui;
 import java.io.File;
 import java.util.Scanner;
 
+import processor.MainProsessor;
+
 public class CommandLineUI {
     public void run() {
         try (Scanner in = new Scanner(System.in)) {
@@ -20,7 +22,7 @@ public class CommandLineUI {
                             System.out.println(">Error: " + "[" + directory + "]" + "is not a directory or does not exit");
                         }
                         else {
-                            // anaylze();
+                            new MainProsessor(file).start();
                         }
                         break;
                     case 2:
