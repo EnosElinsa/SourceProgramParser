@@ -11,4 +11,8 @@ public class JavaSourceFileFilters {
     public static File[] getJavaSourceFiles(File file) {
         return file.listFiles(fileFilter);
     }
+
+    public static boolean isJavaSourcecFile(File file) {
+        return fileFilter.accept(file);
+    }
 }

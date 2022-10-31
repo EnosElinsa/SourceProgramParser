@@ -22,7 +22,9 @@ public class CommandLineUI {
                             System.out.println(">Error: " + "[" + directory + "]" + "is not a directory or does not exit");
                         }
                         else {
-                            new MainProsessor(file).start();
+                            MainProsessor mainProsessor = new MainProsessor(file);
+                            mainProsessor.start();
+                            mainProsessor.showResults();
                         }
                         break;
                     case 2:

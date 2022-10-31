@@ -27,26 +27,35 @@ public class MainProsessor {
         results.add(DIRECTORY_TAG + directory + "\n");
         process(directory, 1);
         results.add("Total: \n");
-        results.add(String.format("\t\t %d Java Files", javaFileCount) + "\n");
-        results.add(String.format("\t\t %d Lines in files", lineCount) + "\n");
-        results.add(String.format("\t\t %d Blank Lines", blankLineCount) + "\n");
-        results.add(String.format("\t\t %d Bytes", byteCount) + "\n");
+        results.add(String.format("\t%4d\tJava Files", javaFileCount) + "\n");
+        results.add(String.format("\t%4d\tLines in files", lineCount) + "\n");
+        results.add(String.format("\t%4d\tBlank Lines", blankLineCount) + "\n");
+        results.add(String.format("\t%4d\tBytes", byteCount) + "\n");
     }
 
     private void process(File directory, int layer) {
-        for (File file : JavaSourceFileFilters.getJavaSourceFiles(directory)) {
+        for (File file : directory.listFiles()) {
             if (file.isDirectory()) {
-                results.add(INDENT.repeat(layer) + DIRECTORY_TAG + file.getName());
-                process(file, layer++);
+                results.add(INDENT.repeat(layer) + DIRECTORY_TAG + file.getName() + "\n");
+                process(file, layer + 1);
             }
-            else {
+            else if (JavaSourceFileFilters.isJavaSourcecFile(file)){
                 long numberOfLines = JavaSourceFileParsers.getNumberOfLines(file);
                 long numberOfBlankLines = JavaSourceFileParsers.getNumberOfBlankLines(file);
                 long numberOfBytes = file.length();
+                javaFileCount++;
+                lineCount += numberOfLines;
+                blankLineCount += numberOfBlankLines;
                 byteCount += numberOfBytes;
                 results.add(INDENT.repeat(layer) + FILE_TAG + file.getName() + 
-                    String.format("\tTotal:\t%d, Blank:\t%d, \t\t%d Bytes\n", numberOfLines, numberOfBlankLines, numberOfBytes));
+                String.format("\tTotal:%8d, Blank:%8d, %12d Bytes\n", numberOfLines, numberOfBlankLines, numberOfBytes));
             }
+        }
+    }
+
+    public void showResults() {
+        for (String result : results) {
+            System.out.print(result);
         }
     }
 }

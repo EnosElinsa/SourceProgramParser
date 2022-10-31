@@ -35,8 +35,8 @@ public class JavaSourceFileParsers {
         try (BufferedReader reader = new BufferedReader(new FileReader(sourceFile))) {
             String line = null;
             while ((line = reader.readLine()) != null) {
-                // 一行去除所有的空白字符后长度>0的是非空行
-                if (line.trim().length() > 0) {
+                // 一行去除所有的空白字符后长度==0的是空行
+                if (line.trim().length() == 0) {
                     numberOfBlankLines++;
                 }
             }
