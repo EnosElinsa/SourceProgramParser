@@ -1,0 +1,320 @@
+[C:\Users\10929\eclipse-workspace\GoldMiner] Result:
+
+Files detail: 
++C:\Users\10929\eclipse-workspace\GoldMiner
+    +.git
+        +hooks
+        +info
+        +logs
+            +refs
+                +heads
+                +remotes
+                    +origin
+        +objects
+            +01
+            +03
+            +04
+            +05
+            +06
+            +07
+            +08
+            +09
+            +0a
+            +0b
+            +0c
+            +0e
+            +0f
+            +10
+            +11
+            +12
+            +13
+            +14
+            +15
+            +16
+            +18
+            +19
+            +1a
+            +1b
+            +1c
+            +1d
+            +1e
+            +1f
+            +20
+            +21
+            +22
+            +23
+            +24
+            +25
+            +26
+            +27
+            +28
+            +29
+            +2a
+            +2b
+            +2c
+            +2d
+            +2e
+            +2f
+            +30
+            +31
+            +32
+            +34
+            +36
+            +37
+            +38
+            +39
+            +3a
+            +3b
+            +3c
+            +3d
+            +3e
+            +40
+            +41
+            +42
+            +44
+            +45
+            +46
+            +47
+            +48
+            +49
+            +4a
+            +4b
+            +4c
+            +4d
+            +4e
+            +4f
+            +50
+            +51
+            +52
+            +53
+            +54
+            +55
+            +56
+            +57
+            +58
+            +59
+            +5a
+            +5c
+            +5d
+            +5e
+            +5f
+            +60
+            +61
+            +62
+            +63
+            +64
+            +65
+            +66
+            +67
+            +68
+            +69
+            +6a
+            +6b
+            +6c
+            +6e
+            +6f
+            +70
+            +71
+            +72
+            +73
+            +74
+            +75
+            +76
+            +77
+            +78
+            +79
+            +7a
+            +7b
+            +7c
+            +7d
+            +7e
+            +7f
+            +80
+            +81
+            +82
+            +83
+            +84
+            +85
+            +86
+            +87
+            +88
+            +89
+            +8b
+            +8c
+            +8d
+            +8e
+            +8f
+            +90
+            +91
+            +92
+            +93
+            +95
+            +96
+            +97
+            +98
+            +99
+            +9a
+            +9b
+            +9c
+            +9d
+            +9e
+            +9f
+            +a0
+            +a1
+            +a2
+            +a3
+            +a4
+            +a5
+            +a6
+            +a7
+            +a8
+            +a9
+            +aa
+            +ab
+            +ac
+            +ad
+            +ae
+            +af
+            +b0
+            +b1
+            +b2
+            +b3
+            +b4
+            +b5
+            +b6
+            +b7
+            +b8
+            +b9
+            +ba
+            +bb
+            +bc
+            +bd
+            +be
+            +bf
+            +c0
+            +c1
+            +c2
+            +c3
+            +c4
+            +c5
+            +c6
+            +c7
+            +c8
+            +c9
+            +ca
+            +cb
+            +cc
+            +cd
+            +ce
+            +cf
+            +d0
+            +d1
+            +d2
+            +d3
+            +d4
+            +d5
+            +d6
+            +d7
+            +d8
+            +d9
+            +da
+            +db
+            +dc
+            +dd
+            +de
+            +df
+            +e0
+            +e1
+            +e2
+            +e3
+            +e4
+            +e5
+            +e6
+            +e7
+            +e8
+            +e9
+            +ea
+            +eb
+            +ec
+            +ed
+            +ee
+            +ef
+            +f0
+            +f1
+            +f2
+            +f3
+            +f4
+            +f5
+            +f6
+            +f7
+            +f8
+            +f9
+            +fa
+            +fb
+            +fc
+            +fd
+            +fe
+            +ff
+            +info
+            +pack
+        +refs
+            +heads
+            +remotes
+                +origin
+            +tags
+    +.idea
+    +.settings
+    +bin
+        +gamebody
+            +engine
+            +main
+            +object
+    +classes
+        +production
+            +Gold
+                +gamebody
+                    +engine
+                    +main
+                    +object
+    +resources
+        +Desktop
+            +1
+            +2
+            +3
+        +levels
+        +mario
+            -BackGround.java		Total:	131, Blank:	6, 	4982 Bytes
+            -Enemy.java		Total:	167, Blank:	9, 	4164 Bytes
+            -Mario.java		Total:	311, Blank:	14, 	8460 Bytes
+            -MyFrame.java		Total:	157, Blank:	8, 	4676 Bytes
+            -Obstruction.java		Total:	65, Blank:	7, 	1327 Bytes
+            -StaticValue.java		Total:	73, Blank:	4, 	2489 Bytes
+    +sound
+    +src
+        +gamebody
+            +engine
+                -Animation.java		Total:	62, Blank:	10, 	1555 Bytes
+                -GameObject.java		Total:	145, Blank:	31, 	3533 Bytes
+                -Rigidbody.java		Total:	23, Blank:	5, 	580 Bytes
+            +main
+                -Background.java		Total:	42, Blank:	7, 	1472 Bytes
+                -GameLauncher.java		Total:	11, Blank:	1, 	225 Bytes
+                -GameWindow.java		Total:	177, Blank:	33, 	5727 Bytes
+                -Miner.java		Total:	91, Blank:	13, 	3257 Bytes
+                -MinerState.java		Total:	18, Blank:	2, 	385 Bytes
+                -Rope.java		Total:	197, Blank:	34, 	5934 Bytes
+                -RopeState.java		Total:	13, Blank:	1, 	227 Bytes
+                -Scene.java		Total:	28, Blank:	5, 	907 Bytes
+                -Time.java		Total:	17, Blank:	4, 	353 Bytes
+                -UI.java		Total:	55, Blank:	14, 	1743 Bytes
+            +object
+                -Diamond.java		Total:	20, Blank:	7, 	387 Bytes
+                -Explosive.java		Total:	17, Blank:	6, 	360 Bytes
+                -Gold.java		Total:	51, Blank:	12, 	1438 Bytes
+                -Stone.java		Total:	34, Blank:	7, 	768 Bytes
+                -TreasureBag.java		Total:	17, Blank:	5, 	414 Bytes
+Total: 
+        24	Java Files
+      1922	Lines in files
+       245	Blank Lines
+     55363	Bytes

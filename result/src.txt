@@ -1,0 +1,18 @@
+[C:\Users\10929\eclipse-workspace\SourceProgramParser\src] Result:
+
+Files detail: 
++src
+    +main
+        -Main.java		Total:	9, Blank:	2, 	158 Bytes
+    +processor
+        -JavaSourceFileFilter.java		Total:	19, Blank:	5, 	441 Bytes
+        -JavaSourceFileParser.java		Total:	50, Blank:	4, 	1578 Bytes
+        -MainProsessor.java		Total:	141, Blank:	29, 	4561 Bytes
+        -ResultHandler.java		Total:	96, Blank:	11, 	3257 Bytes
+    +ui
+        -CommandLineUI.java		Total:	55, Blank:	3, 	2590 Bytes
+Total: 
+         6	Java Files
+       370	Lines in files
+        54	Blank Lines
+     12585	Bytes
