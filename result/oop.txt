@@ -1,0 +1,66 @@
+[C:\Users\10929\eclipse-workspace\JavaOOP\src\oop] Result:
+
+Files detail: 
++C:\Users\10929\eclipse-workspace\JavaOOP\src\oop
+    +experiment
+        +exp07
+            +data
+                -Product.java		Total:	122, Blank:	16, 	3196 Bytes
+                -ProductManager.java		Total:	119, Blank:	11, 	4278 Bytes
+            +main
+                -Main.java		Total:	27, Blank:	3, 	828 Bytes
+        +exp1
+            -Ring.java		Total:	40, Blank:	7, 	1220 Bytes
+            -TestRing.java		Total:	14, Blank:	1, 	615 Bytes
+        +exp2
+            -GoodRing.java		Total:	55, Blank:	7, 	1638 Bytes
+            -GoodRingUtil.java		Total:	45, Blank:	5, 	1511 Bytes
+            -TestRing.java		Total:	33, Blank:	3, 	1589 Bytes
+    +homework
+        +arithope
+            -IntegerArithmeticExpression.java		Total:	151, Blank:	15, 	5377 Bytes
+            -Main.java		Total:	13, Blank:	2, 	399 Bytes
+        +circle
+            -Circle.java		Total:	61, Blank:	4, 	1900 Bytes
+            -Main.java		Total:	21, Blank:	2, 	694 Bytes
+        +fileproperties
+            -CLUI.java		Total:	14, Blank:	3, 	388 Bytes
+            -DirectoryParser.java		Total:	124, Blank:	10, 	3891 Bytes
+            -Main.java		Total:	7, Blank:	1, 	144 Bytes
+        +firstday
+            -FirstDayOfTheYear.java		Total:	13, Blank:	3, 	389 Bytes
+            -Main.java		Total:	13, Blank:	2, 	395 Bytes
+        +numguesgame
+            -GameLauncher.java		Total:	12, Blank:	3, 	244 Bytes
+            -GuessGame.java		Total:	66, Blank:	4, 	2435 Bytes
+            -Player.java		Total:	51, Blank:	5, 	1383 Bytes
+        +part1
+            -Draw4Cards.java		Total:	89, Blank:	9, 	2928 Bytes
+            -PalindromePrimes.java		Total:	54, Blank:	7, 	1541 Bytes
+            -SumOfEachDigit.java		Total:	25, Blank:	4, 	673 Bytes
+        +pokergame
+            -Card.java		Total:	24, Blank:	2, 	637 Bytes
+            -GameHelpers.java		Total:	49, Blank:	4, 	1941 Bytes
+            -GameLauncher.java		Total:	10, Blank:	1, 	218 Bytes
+            -Player.java		Total:	50, Blank:	5, 	1714 Bytes
+            -Poker.java		Total:	27, Blank:	3, 	1070 Bytes
+            -PokerGame.java		Total:	45, Blank:	8, 	1862 Bytes
+            -Suits.java		Total:	9, Blank:	1, 	227 Bytes
+        +utilrate
+            -A.java		Total:	37, Blank:	8, 	703 Bytes
+            -B.java		Total:	26, Blank:	6, 	475 Bytes
+            -C.java		Total:	48, Blank:	10, 	1038 Bytes
+            -Input.java		Total:	38, Blank:	6, 	943 Bytes
+            -Main.java		Total:	7, Blank:	1, 	160 Bytes
+            -Shape2D.java		Total:	5, Blank:	1, 	112 Bytes
+            -SteelPlate.java		Total:	36, Blank:	4, 	898 Bytes
+            -UtilizationRateCalculation.java		Total:	34, Blank:	2, 	1587 Bytes
+    +test
+        -MyThread.java		Total:	20, Blank:	4, 	417 Bytes
+        -MyThread2.java		Total:	18, Blank:	3, 	433 Bytes
+        -TryCatchTest.java		Total:	26, Blank:	3, 	870 Bytes
+Total: 
+        41	Java Files
+      1678	Lines in files
+       199	Blank Lines
+     52961	Bytes

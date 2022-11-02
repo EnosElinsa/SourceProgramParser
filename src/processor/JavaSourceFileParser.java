@@ -8,14 +8,14 @@ import java.io.IOException;
 
 public class JavaSourceFileParser {
     /**
-     *  统计源程序文件的行数，包括空行
-     * 
-     * @return -1表示统计失败, 0和正整数表示行数
+     * Count the number of lines in the source program file, including empty lines
+     * @param sourceFile file to be analyzed
+     * @return -1 indicates that the statistics failed. 0 and a positive integer indicate the number of rows
      */
     public long getNumberOfLines(File sourceFile) {
         int numberOfLines = 0;
         try (BufferedReader reader = new BufferedReader(new FileReader(sourceFile))) {
-            // readLine方法返回null表示读取结束
+            // The readLine method returns null to indicate the end of the read
             while (reader.readLine() != null) {
                 numberOfLines++;
             }
@@ -27,16 +27,16 @@ public class JavaSourceFileParser {
     }
 
     /**
-     * 统计源程序文件的空行数
-     * 
-     * @return -1表示统计失败, 0和正整数表示行数
+     * Count the number of blank lines in the source program file
+     * @param sourceFile file to be analyzed
+     * @return -1 indicates that the statistics failed. 0 and a positive integer indicate the number of rows
      */
     public long getNumberOfBlankLines(File sourceFile) {
         int numberOfBlankLines = 0;
         try (BufferedReader reader = new BufferedReader(new FileReader(sourceFile))) {
             String line = null;
             while ((line = reader.readLine()) != null) {
-                // 一行去除所有的空白字符后长度==0的是空行
+                // A line of length equal to zero after all whitespace has been removed is a blank line
                 if (line.trim().length() == 0) {
                     numberOfBlankLines++;
                 }

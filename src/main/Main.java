@@ -3,7 +3,9 @@ package main;
 import ui.CommandLineUI;
 
 public class Main {
+    private static CommandLineUI commandLineUI;
     public static void main(String[] args) {
-        new CommandLineUI().run();
+        commandLineUI = new CommandLineUI();
+        commandLineUI.run();
     }
 }

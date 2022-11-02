@@ -7,6 +7,8 @@ import processor.MainProsessor;
 import processor.ResultHandler;
 
 public class CommandLineUI {
+    private MainProsessor mainProsessor;
+    private ResultHandler resultHandler = new ResultHandler();
     public void run() {
         try (Scanner in = new Scanner(System.in)) {
             while (true) {
@@ -23,13 +25,13 @@ public class CommandLineUI {
                             System.out.println(">Error: " + "[" + directory + "]" + "is not a directory or does not exit");
                         }
                         else {
-                            MainProsessor mainProsessor = new MainProsessor(file);
+                            mainProsessor = new MainProsessor(file);
                             mainProsessor.start();
                             mainProsessor.showResults();
                         }
                         break;
                     case 2:
-                        String resultInfo = new ResultHandler().getResultInfo();
+                        String resultInfo = resultHandler.getResultInfo();
                         if (resultInfo == null) {
                             System.out.println(">No result found!");
                         }
@@ -43,7 +45,7 @@ public class CommandLineUI {
                             if (index == 0) {
                                 break;
                             }
-                            String result = new ResultHandler().getResult(index - 1);
+                            String result = resultHandler.getResult(index - 1);
                             System.out.println(result);
                         }
                         break;
